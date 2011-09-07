@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Diffiss' target in the 'Diffiss' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

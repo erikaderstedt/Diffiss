@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032B519F10BD1C5E007F5F04 /* connect_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B519A10BD1C5E007F5F04 /* connect_32x32.png */; };
+		032B51A010BD1C5E007F5F04 /* folder_closed_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B519B10BD1C5E007F5F04 /* folder_closed_16x16.png */; };
+		032B51A110BD1C5E007F5F04 /* folder_open_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B519C10BD1C5E007F5F04 /* folder_open_16x16.png */; };
+		032B51A210BD1C5E007F5F04 /* refresh_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B519D10BD1C5E007F5F04 /* refresh_32x32.png */; };
+		032B51A310BD1C5E007F5F04 /* share1_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B519E10BD1C5E007F5F04 /* share1_16x16.png */; };
+		032B51A610BD1CD1007F5F04 /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 032B51A510BD1CD1007F5F04 /* appIcon.icns */; };
+		032B524610BE6986007F5F04 /* ASInsetBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 032B524510BE6986007F5F04 /* ASInsetBrowserCell.m */; };
+		032B524A10BE6AAF007F5F04 /* ASInsetBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 032B524910BE6AAF007F5F04 /* ASInsetBrowser.m */; };
+		0359772810A1805B003EFCF9 /* rpc_parser.py in Resources */ = {isa = PBXBuildFile; fileRef = 0359772710A1805B003EFCF9 /* rpc_parser.py */; };
+		0359778710A18CD6003EFCF9 /* BrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0359778610A18CD6003EFCF9 /* BrowserController.m */; };
+		03597A5410A414BC003EFCF9 /* KeychainServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 03597A5310A414BC003EFCF9 /* KeychainServices.m */; };
+		03597A7610A415AF003EFCF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03597A7510A415AF003EFCF9 /* Security.framework */; };
+		03597AD810A426D4003EFCF9 /* ProgressIndicatorToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03597AD710A426D4003EFCF9 /* ProgressIndicatorToolbarItem.m */; };
+		0364847B10B28BEC003BC275 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0364847A10B28BEC003BC275 /* Credits.rtf */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* DiffissAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* DiffissAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032B519A10BD1C5E007F5F04 /* connect_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_32x32.png; sourceTree = "<group>"; };
+		032B519B10BD1C5E007F5F04 /* folder_closed_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_closed_16x16.png; sourceTree = "<group>"; };
+		032B519C10BD1C5E007F5F04 /* folder_open_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_open_16x16.png; sourceTree = "<group>"; };
+		032B519D10BD1C5E007F5F04 /* refresh_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_32x32.png; sourceTree = "<group>"; };
+		032B519E10BD1C5E007F5F04 /* share1_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share1_16x16.png; sourceTree = "<group>"; };
+		032B51A510BD1CD1007F5F04 /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+		032B524410BE6986007F5F04 /* ASInsetBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInsetBrowserCell.h; sourceTree = "<group>"; };
+		032B524510BE6986007F5F04 /* ASInsetBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInsetBrowserCell.m; sourceTree = "<group>"; };
+		032B524810BE6AAF007F5F04 /* ASInsetBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInsetBrowser.h; sourceTree = "<group>"; };
+		032B524910BE6AAF007F5F04 /* ASInsetBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInsetBrowser.m; sourceTree = "<group>"; };
+		0359772710A1805B003EFCF9 /* rpc_parser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = rpc_parser.py; sourceTree = "<group>"; };
+		0359778510A18CD6003EFCF9 /* BrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserController.h; sourceTree = "<group>"; };
+		0359778610A18CD6003EFCF9 /* BrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserController.m; sourceTree = "<group>"; };
+		03597A5210A414BC003EFCF9 /* KeychainServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainServices.h; sourceTree = "<group>"; };
+		03597A5310A414BC003EFCF9 /* KeychainServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainServices.m; sourceTree = "<group>"; };
+		03597A7510A415AF003EFCF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		03597AD610A426D4003EFCF9 /* ProgressIndicatorToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressIndicatorToolbarItem.h; sourceTree = "<group>"; };
+		03597AD710A426D4003EFCF9 /* ProgressIndicatorToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressIndicatorToolbarItem.m; sourceTree = "<group>"; };
+		0364847A10B28BEC003BC275 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* DiffissAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffissAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* DiffissAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffissAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Diffiss_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diffiss_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Diffiss-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Diffiss-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Diffiss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffiss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				03597A7610A415AF003EFCF9 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				032B524810BE6AAF007F5F04 /* ASInsetBrowser.h */,
+				032B524910BE6AAF007F5F04 /* ASInsetBrowser.m */,
+				032B524410BE6986007F5F04 /* ASInsetBrowserCell.h */,
+				032B524510BE6986007F5F04 /* ASInsetBrowserCell.m */,
+				03597AD610A426D4003EFCF9 /* ProgressIndicatorToolbarItem.h */,
+				03597AD710A426D4003EFCF9 /* ProgressIndicatorToolbarItem.m */,
+				03597A5210A414BC003EFCF9 /* KeychainServices.h */,
+				03597A5310A414BC003EFCF9 /* KeychainServices.m */,
+				0359778510A18CD6003EFCF9 /* BrowserController.h */,
+				0359778610A18CD6003EFCF9 /* BrowserController.m */,
+				256AC3D80F4B6AC300CF3369 /* DiffissAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* DiffissAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Diffiss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Duffuss */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Duffuss;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Diffiss_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				032B51A510BD1CD1007F5F04 /* appIcon.icns */,
+				0364847A10B28BEC003BC275 /* Credits.rtf */,
+				032B519A10BD1C5E007F5F04 /* connect_32x32.png */,
+				032B519B10BD1C5E007F5F04 /* folder_closed_16x16.png */,
+				032B519C10BD1C5E007F5F04 /* folder_open_16x16.png */,
+				032B519D10BD1C5E007F5F04 /* refresh_32x32.png */,
+				032B519E10BD1C5E007F5F04 /* share1_16x16.png */,
+				0359772710A1805B003EFCF9 /* rpc_parser.py */,
+				8D1107310486CEB800E47090 /* Diffiss-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				03597A7510A415AF003EFCF9 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Diffiss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Diffiss" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				036969561172F2A4007355F2 /* Update SVN version */,
+				0369696D1172F349007355F2 /* Create custom version */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diffiss;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Duffuss;
+			productReference = 8D1107320486CEB800E47090 /* Diffiss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Diffiss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Duffuss */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Diffiss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				0359772810A1805B003EFCF9 /* rpc_parser.py in Resources */,
+				0364847B10B28BEC003BC275 /* Credits.rtf in Resources */,
+				032B519F10BD1C5E007F5F04 /* connect_32x32.png in Resources */,
+				032B51A010BD1C5E007F5F04 /* folder_closed_16x16.png in Resources */,
+				032B51A110BD1C5E007F5F04 /* folder_open_16x16.png in Resources */,
+				032B51A210BD1C5E007F5F04 /* refresh_32x32.png in Resources */,
+				032B51A310BD1C5E007F5F04 /* share1_16x16.png in Resources */,
+				032B51A610BD1CD1007F5F04 /* appIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036969561172F2A4007355F2 /* Update SVN version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update SVN version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "#!/usr/bin/python\n\nimport os, sys\nif os.environ['BUILD_STYLE'] != 'Release':\n\tsys.exit(0)\n\nos.environ['MACOSX_DEPLOYMENT_TARGET']='10.6'\n\nfrom AppKit import NSMutableDictionary\n\ndef increaseVersion():\n    # reading svn version\n    version = os.popen('svnversion -n').read()\n\n    version = version.split(':')[-1]\n\n    if not version[-1].isdigit():\n        version = version[:-1]\n\n    # reading info.plist file\n    projectPlist = NSMutableDictionary.dictionaryWithContentsOfFile_('Duffuss-Info.plist')\n\n    # setting the svn version for CFBundleVersion key\n    projectPlist['CFBundleVersion'] = version\n    projectPlist.writeToFile_atomically_('Duffuss-Info.plist', True)\n\nif __name__ == '__main__':\n    increaseVersion()";
+		};
+		0369696D1172F349007355F2 /* Create custom version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create custom version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "#!/usr/bin/python\n\nimport os, sys\nfrom shutil import rmtree\nif os.environ['BUILD_STYLE'] != 'Release':\n\tsys.exit(0)\n\nos.environ['MACOSX_DEPLOYMENT_TARGET']='10.6'\n\nfrom AppKit import NSMutableDictionary\n\ndef setDefaults(server,kerberos,domain,plistpath):\n    # reading info.plist file\n    projectPlist = NSMutableDictionary.dictionaryWithContentsOfFile_(plistpath)\n    print plistpath\n    # setting the svn version for CFBundleVersion key\n    projectPlist['ASDefaultServer'] = server\n    projectPlist['ASUseKerberos'] = kerberos\n    projectPlist['ASDefaultDomain'] = domain\n    projectPlist.writeToFile_atomically_(plistpath, True)\n\ndef copyTarget(suffix):\n\tbuilt = os.environ['BUILT_PRODUCTS_DIR']\n\n\tdest = 'Diffiss-%s.app/' % (suffix,)\n\trmtree(os.path.join(built,dest), True)\n\tos.system('cp -R %s %s' % (os.path.join(built, 'Diffiss.app'), os.path.join(built,dest)))\n\n\ttarget = os.path.join(built, dest,'Contents','Info.plist')\n\t\n\treturn target\n\nif __name__ == '__main__':\n\t\n\tsetDefaults('antaros.dse.hik.se',False,'LNU',copyTarget('Linne'))\n\tsetDefaults('hoth.lnu.se',False,'LNU',copyTarget('Linne2'))\n\tsetDefaults('eu.novartis.net',True,'', copyTarget('Novartis'))\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* DiffissAppDelegate.m in Sources */,
+				0359778710A18CD6003EFCF9 /* BrowserController.m in Sources */,
+				03597A5410A414BC003EFCF9 /* KeychainServices.m in Sources */,
+				03597AD810A426D4003EFCF9 /* ProgressIndicatorToolbarItem.m in Sources */,
+				032B524610BE6986007F5F04 /* ASInsetBrowserCell.m in Sources */,
+				032B524A10BE6AAF007F5F04 /* ASInsetBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0364855D10B29C5A003BC275 /* Linne University */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = LINNE_UNIVERSITY;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = "Linne University";
+		};
+		0364855E10B29C5A003BC275 /* Linne University */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diffiss_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffiss-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Diffiss;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = "Linne University";
+		};
+		038A803A10C3AB480083E5D3 /* Linne University 2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = LINNE_UNIVERSITY_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = "Linne University 2";
+		};
+		038A803B10C3AB480083E5D3 /* Linne University 2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diffiss_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffiss-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Diffiss;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = "Linne University 2";
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diffiss_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffiss-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Diffiss;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diffiss_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diffiss-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Diffiss;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Diffiss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+				0364855E10B29C5A003BC275 /* Linne University */,
+				038A803B10C3AB480083E5D3 /* Linne University 2 */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Diffiss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				0364855D10B29C5A003BC275 /* Linne University */,
+				038A803A10C3AB480083E5D3 /* Linne University 2 */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
